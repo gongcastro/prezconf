@@ -1,0 +1,142 @@
+---
+title: A theme for academic conferences
+subtitle: A nice subtitle
+format: prezconf-revealjs
+author:
+  - name: "Gonzalo<br>Garcia-Castro"
+    affiliation: "Universitat Pompeu Fabra"
+    orcid: 0000-0002-8553-4209
+echo: false
+warning: false
+fig-dpi: 800
+affiliation-logo:
+  - logo-upf.png
+scrollable: true
+show-slide-number: all
+slide-number: c
+date: last-modified
+conference: International Conference of Academic Presentations (ICAP)
+location: Barcelona (Spain)
+email: mynice@email.com
+github: gongcastro/prezconf
+twitter: gongcastro
+---
+
+## Introduction
+
+This slide has some text.
+
+::: box
+You can define a *box* like this one.
+:::
+
+
+## Columns
+
+This slide has two columns.
+
+<br>
+
+::: columns
+
+:::: {.column width="50%}
+
+**First column**
+
+This is the first column, which has some text.
+
+::::
+
+:::: {.column width="50%}
+
+**Second column**
+
+This is the second column, which has more text than the first column.
+
+::::
+
+:::
+
+## Columns and boxes
+
+This slide has two columns.
+
+<br>
+
+::: columns
+
+:::: {.column width="50%}
+
+**First column**
+
+::::: box 
+
+This is the first column, which is also a box
+
+:::::
+
+::::
+
+:::: {.column width="50%}
+
+**Second column**
+
+This is the second column, which has more text than the first column.
+
+::::
+
+:::
+
+## More boxes
+
+This slide has two columns.
+
+<br>
+
+::: columns
+
+:::: {.column width="50%}
+
+::::: box 
+
+**First column**
+
+This is the first column, which is also a box
+
+:::::
+
+::::
+
+:::: {.column width="50%}
+
+**Second column**
+
+This is the second column, which has more text than the first column.
+
+::::
+
+:::
+
+# A section slide
+
+A new section begins
+
+## Blockquotes, definitions
+
+We can add some blockquotes:
+
+> This is a blockquote
+
+<br>
+
+We can also add some definitions:
+
+Definition
+: This is a definition
+
+---
+
+::: thanks
+Thanks
+:::
+
